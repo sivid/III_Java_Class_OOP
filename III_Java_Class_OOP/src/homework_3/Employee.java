@@ -92,8 +92,8 @@ class Staff extends Employee{
 } // end class Staff
 
 class T2_Exec extends Staff {
-	protected int lunchPay = 1800;
-	protected int positionPay = 3000;			// because some ppl get more
+	protected static int lunchPay = 1800;
+	protected static int positionPay = 3000;			// because some ppl get more
 	public T2_Exec(String name, char gender, String onboardDate,
 			String phoneNumber, String address, int salary){
 		super(name, gender, onboardDate, phoneNumber, address, salary);
@@ -105,8 +105,8 @@ class T2_Exec extends Staff {
 } // end class T2_exec
 
 class T1_Exec extends T2_Exec {
-	protected int positionPay = 5000;
-	protected int transportExpenses = 2000;
+	protected static int positionPay = 5000;
+	protected static int transportExpenses = 2000;
 	/**
 	 * @param name
 	 * @param gender
