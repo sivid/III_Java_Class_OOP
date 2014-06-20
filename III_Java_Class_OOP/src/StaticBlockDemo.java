@@ -5,7 +5,7 @@ public class StaticBlockDemo {
 		count = 10;
 	} // static block
 	public static void main(String[] args) {
-		num++;
+		//num++;
 		count++;
 	}
 
